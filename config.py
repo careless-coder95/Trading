@@ -17,7 +17,7 @@ class Config:
 
     # Bot Settings
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
-    ADMIN_USER_ID: int = int(os.getenv("ADMIN_USER_ID", "0"))
+    ADMIN_USER_ID: int = int(os.getenv("ADMIN_USER_ID", "5864182070"))
 
     # Database
     DATABASE_PATH: str = os.getenv("DATABASE_PATH", "data/trades.db")
